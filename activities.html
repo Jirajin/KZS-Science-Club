@@ -8,10 +8,10 @@
 <body>
   <header class="text-gray-400 bg-gray-900 body-font">
     <div
-      class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      class="container mx-auto flex flex-wrap px-5 pt-5 flex-col md:flex-row items-center"
     >
       <a
-        class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
+        class="flex title-font font-medium items-center text-white mb-4 md:mb-0 items-center"
       >
         <img src="images/logo.jpg" width="103" height="103" class="w-10 h-10 rounded-full flex-shrink-0 object-cover object-center">
           <path
@@ -21,7 +21,7 @@
         <span class="ml-3 text-xl">KZSSC</span>
       </a>
       <nav
-        class="md:ml-auto flex flex-wrap items-center text-base justify-center"
+        class="md:ml-auto hidden md:inline flex-wrap items-center text-base justify-center"
       >
         <a href="index.html" class="mr-5 hover:text-white">Home</a>
         <a href="journal.html" class="mr-5 hover:text-white">Journal</a>
@@ -29,8 +29,18 @@
       
         <a href="executives.html" class="mr-5 hover:text-white">Executives</a>
       </nav>
+      
     </div>
+    <button class="hamburger">
+      <div class="bar"></div>
+    </button>
   </header>
+  <nav class="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="journal.html">Journal</a>
+    <a href="activities.html">Activities</a>
+    <a href="executives.html">Executives</a>
+  </nav>
       <section class="text-gray-400 body-font bg-gray-900">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
